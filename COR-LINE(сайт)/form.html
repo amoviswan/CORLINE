@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<title>COR-LINE | Анкета</title>
+    
+	
+
+     <link href="css/font-awesome.min.css" rel="stylesheet"> 
+	
+	 <link href="css/responsive.css" rel="stylesheet">
+     <link rel="shortcut icon" href="images/ico/favicon.ico">
+     <link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.min.css" />
+     <link rel="stylesheet" href="css/clear.css" type="text/css" />
+     <link rel="stylesheet" href="css/vacansiaeaeea.css" type="text/css" />
+	 
+	
+	  <link href="css/bootstrap.min.css" rel="stylesheet">
+	    
+ 
+ <link href="css/main.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+
+</head>
+
+<body class="twoCol">
+    <div id="wrapper">
+
+        <header id="header">      
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                    	<h1><img src="images/logo.png" alt="logo"></h1>
+                    </a>  
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown"><a href="index.html">Главная</a></li>             
+						<li class="dropdown"><a href="vakanc.html">Работа <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="vakanc.html">Вакансии</a></li>
+                                <li><a href="form.html">Анкета</a></li> 
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="404.html">Заявки</a></li>                        
+                        <li><a href="About.html ">Контакты</a></li>                    
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </header>
+
+ <section id="page-breadcrumb">
+        <div class="vertical-center sun">
+             <div class="container">
+                <div class="row">
+                    <div class="action">
+                        <div class="col-sm-12">
+                            <h1 class="title"> Анкета</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   
+  <section id="home-slider">
+        <div class="container">
+            <div class="row">
+                <div class="main-slider"> 
+
+        <div id="container">
+            <div id="leftCol">
+
+    <!--  LINKS  -->
+    
+    
+    
+        <div class="links">
+            <ul><li class="first">
+    <a href="vakanc.html"><span><img src="" alt="" /></span>Вакансии</a>
+    
+    
+</li>
+<li class="first active">
+    <a href="form.html"><span></span>Анкета</a>
+    
+    
+</li>
+
+
+</ul>
+        </div>
+    
+    
+    
+    
+    
+    
+</div>
+        
+            <div id="content" >
+ 
+                
+                <form class="vacancyForm" action="" method="post" target="_blank" name="f1" enctype="multipart/form-data">
+    <fieldset>
+	
+	
+	
+        <div class="row">
+            <div class="name required">Вакансия*:</div>
+            <div class="field">
+                <input type="text" name="vac" minlength="4" class="short" value="" required />
+            </div>
+        </div>
+        <div class="row">
+            <div class="name required">Фамилия*:</div>
+            <div class="field">
+                <input type="text" name="surname" minlength="5" class="short" required />
+            </div>
+        </div>
+        <div class="row">
+            <div class="name required">Имя*:</div>
+            <div class="field">
+                <input type="text" name="name" minlength="4" class="short" required />
+            </div>
+        </div>
+        <div class="row">
+            <div class="name required">Отчество*:</div>
+            <div class="field">
+                <input type="text" name="otc" minlength="5" class="short" required />
+            </div>
+        </div>
+
+            <div class="row">
+            <div class="name required">Дата рождения*:</div>
+            <div class="field">
+                <input type="text" name="date" class="date short" required />
+                 <div class="calendar"></div>
+            </div>
+        </div>
+
+            <div class="row">
+            <div class="name required">E-mail*:</div>
+            <div class="field">
+                <input type="text" name="email" class="short" required />
+            </div>
+        </div>
+		
+        <div class="row">
+            <div class="name">Контактный телефон:</div>
+
+            <div class="field">
+                <input type="text" name="homePhone" class="short cityPhone" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="name required">Район проживания*<br/> или адрес:</div>
+            <div class="field">
+                <textarea name="text" class="big" minlength="5" required></textarea>
+            </div>
+        </div>
+    </fieldset>
+
+
+
+
+
+    <h2>Последние места работы</h2>
+    <fieldset>
+        <div class="row">
+            <div class="name">1. Название организации</div>
+            <div class="field">
+                <input type="text" name="work0company" minlength="5" class="short"  />
+            </div>
+        </div>
+        <div class="row">
+            <div class="name">Период работы</div>
+            <div class="field">
+                с
+                <select name="work0beginmonth" class="short">
+                    <option value="">--</option>
+                    <option>январь</option>
+                    <option>февраль</option>
+                    <option>март</option>
+                    <option>апрель</option>
+                    <option>май</option>
+                    <option>июнь</option>
+                    <option>июль</option>
+                    <option>август</option>
+                    <option>сентябрь</option>
+                    <option>октябрь</option>
+                    <option>ноябрь</option>
+                    <option>декабрь</option>
+                </select>
+                <select name="work0beginyear" class="short"><option value="">--</option><option>2020</option><option>2019</option><option>2018</option><option>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>2008</option><option>2007</option><option>2006</option><option>2005</option><option>2004</option><option>2003</option><option>2002</option><option>2001</option><option>2000</option></select>
+                по
+                <select name="work0endmonth" class="short">
+                    <option value="">--</option>
+                    <option>январь</option>
+                    <option>февраль</option>
+                    <option>март</option>
+                    <option>апрель</option>
+                    <option>май</option>
+                    <option>июнь</option>
+                    <option>июль</option>
+                    <option>август</option>
+                    <option>сентябрь</option>
+                    <option>октябрь</option>
+                    <option>ноябрь</option>
+                    <option>декабрь</option>
+                </select>
+                <select name="work0endyear" class="short"><option value="">--</option><option>2020</option><option>2019</option><option>2018</option><option>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>2008</option><option>2007</option><option>2006</option><option>2005</option><option>2004</option><option>2003</option><option>2002</option><option>2001</option><option>2000</option></select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="name">Должность:</div>
+            <div class="field">
+                <input type="text" name="work0position" minlength="5" class="short"  />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="name">Обязанности:</div>
+            <div class="field">
+                <textarea name="work0responsibility" class="big"></textarea>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="name">2. Название организации</div>
+            <div class="field">
+                <input type="text" name="work1company" minlength="5" class="short"  />
+            </div>
+        </div>
+        <div class="row">
+            <div class="name">Период работы</div>
+            <div class="field">
+                с
+                <select name="work1beginmonth" class="short">
+                    <option value="">--</option>
+                    <option>январь</option>
+                    <option>февраль</option>
+                    <option>март</option>
+                    <option>апрель</option>
+                    <option>май</option>
+                    <option>июнь</option>
+                    <option>июль</option>
+                    <option>август</option>
+                    <option>сентябрь</option>
+                    <option>октябрь</option>
+                    <option>ноябрь</option>
+                    <option>декабрь</option>
+                </select>
+                <select name="work1beginyear" class="short"><option value="">--</option><option>2020</option><option>2019</option><option>2018</option><option>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>2008</option><option>2007</option><option>2006</option><option>2005</option><option>2004</option><option>2003</option><option>2002</option><option>2001</option><option>2000</option></select>
+                по
+                <select name="work1endmonth" class="short">
+                    <option value="">--</option>
+                    <option>январь</option>
+                    <option>февраль</option>
+                    <option>март</option>
+                    <option>апрель</option>
+                    <option>май</option>
+                    <option>июнь</option>
+                    <option>июль</option>
+                    <option>август</option>
+                    <option>сентябрь</option>
+                    <option>октябрь</option>
+                    <option>ноябрь</option>
+                    <option>декабрь</option>
+                </select>
+                <select name="work1endyear" class="short"><option value="">--</option><option>2020</option><option>2019</option><option>2018</option><option>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>2008</option><option>2007</option><option>2006</option><option>2005</option><option>2004</option><option>2003</option><option>2002</option><option>2001</option><option>2000</option></select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="name">Должность:</div>
+            <div class="field">
+                <input type="text" name="work1position" minlength="5" class="short"  />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="name">Обязанности:</div>
+            <div class="field">
+                <textarea name="work1responsibility" class="big"></textarea>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <fieldset>
+        <div class="row margin">
+            <div class="name">Ожидаемая оплата труда:</div>
+            <div class="field"><input type="text" name="salary" class="middle" /></div>
+        </div>
+
+        <div class="row">
+            <div class="name required">Сопроводительное письмо:</div>
+            <div class="field"><textarea name="letter" class="big"></textarea></div>
+        </div>
+
+        <div class="row">
+            <div class="name required">Прикрепить резюме:</div>
+            <div class="field"><input type="file" name="resume" /></div>
+        </div>
+    </fieldset>
+    
+    
+    <fieldset> 
+        <div class="row">
+            <div class="name"></div>
+            <div class="field tableField">
+                <input type="checkbox" name="fund" id="fund"  />
+                <div style="padding-left: 7px; display: table-cell;">
+                    Согласен на включение в кадровый резерв
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="name required"></div>
+            <div class="field tableField">
+                <input type="checkbox" name="agreement" id="agreement" required /> 
+                <div style="padding-left: 7px; display: table-cell;">
+                    В соответствии с законодательством РФ о персональных данных, 
+                    выражаю <a target="_blank" href="/files/СОГЛАСИЕ_НА_ОБРАБОТКУ_ПЕРСОНАЛЬНЫХ_ДАННЫХ_анкеты.pdf">согласие</a> на обработку моих персональных данных, а также 
+                    на передачу информации в электронной форме заявления 
+                    (в том числе персональных данных) по открытым каналам 
+                    связи сети Интернет
+                </div>
+            </div>
+        </div>
+    </fieldset> 
+
+    
+    
+
+    <div class="requiredText">* Поля обязательные для заполнения</div>
+    <div class="btns">
+    
+        <input  class="forminpun" type="hidden" name="nospam:blank" value="" />
+         <input class="forminpun" type="hidden" name="work-email" value="" />
+    
+        <a href="form.html" class="btn btncancel">Отмена</a>
+        <input type="submit" value="Отправить" name="sab" class="btn btnsend" />
+		
+    </div>
+</form>
+            </div>
+        </div>
+        
+        
+        
+        <div class="clear"></div>
+        <div class="empty"></div>
+    </div>
+ </section>
+
+  
+
+
+
+
+
+     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>  
+
+
+     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+     <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+     <script type="text/javascript" src="js/ui.datepicker-ru.js"></script>
+     <script type="text/javascript" src="js/tools.js"></script>
+     <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+     <script src="js/html5shiv.js"></script>
+	 <script src="js/customselect.js"></script>
+     <script src="js/icheck.min.js"></script>
+     <script src="js/jquery.maskedinput.js"></script>
+     <script src="js/jquery.validate.min.js"></script>
+    
+
+</body>
+
+	
+</html>
